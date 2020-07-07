@@ -20,6 +20,7 @@ public class Main {
         List list = new ArrayList(  );
         List list1 = new LinkedList(  );
 
+        System.out.println("dasdasd");
         countElementsFromList( list );
         countElementsFromList( list1 );
 
