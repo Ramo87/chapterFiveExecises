@@ -11,7 +11,7 @@ public class Ex {
         s.someMethod();
     }
     public static void someMethod() { //nu poti sa fol un camp de instanta intr-o metoda statica, fara sa ai un obliect deja creat
-        System.out.println("i");
+        //System.out.println(i);
     }
 }
 
