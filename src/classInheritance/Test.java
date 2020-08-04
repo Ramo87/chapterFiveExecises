@@ -5,10 +5,23 @@ package classInheritance;
  */
 public class Test {
     public static void main(String []args) {
-        Lion lion = new Lion("King", 2, 56, "black");
-        System.out.println(lion.toString());
-        lion.setColor("white");
-        Lion lion2 = new Lion("King2", 3, 33, "black");
-        System.out.println(lion2.toString());
+        m();
+    }
+
+    static void m() {
+        try {
+            System.out.println("Start");
+            int i = 0;
+            if (i == 0) {
+                throw new IllegalArgumentException(  );
+            }
+            System.out.println("After exception throw");
+        } catch (RuntimeException e) {
+            System.out.println("In catch block");
+        }
+
+
+
+        System.out.println("End statment");
     }
 }

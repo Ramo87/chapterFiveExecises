@@ -1,11 +1,11 @@
 package bicycle;
 
 /**
- * Created by Loky on 05/07/2020.
+ * Created by Ramona on 22/07/2020.
  */
 public class Bicycle {
-    //the class has three fields
-    public int gear;     /* gear = vitezele de la masina */
+    //the class has 2 fields, instance variable
+    public int gear;     /* gear  */
     public int speed;
 
     //the class has one constructors
@@ -15,6 +15,8 @@ public class Bicycle {
     }
 
     //the class has three methods
+
+
     public void applyBreak(int decrement){
         speed -= decrement;
     }

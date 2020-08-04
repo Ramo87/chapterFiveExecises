@@ -1,6 +1,10 @@
 package bicycle;
 
 
+/**
+ * Created by Ramona on 22/07/2020.
+ */
+
 public class MountainBike extends Bicycle {
 
     public int seatHeight; //the subclass add one more field

@@ -1,0 +1,12 @@
+A LocalDate contains just a date, a LocalTime contains just a time, and a LocalDateTime
+contains both a date and time.
+
+All three have private constructors and are created using
+LocalDate.now() or LocalDate.of() (or the equivalents for that class). Dates and times
+can be manipulated using plusXXX or minusXXX methods.
+
+ The Period class represents a
+number of days, months, or years to add or subtract from a LocalDate or LocalDateTime.
+DateTimeFormatter is used to output dates and times in the desired format.
+
+The date and time classes are all immutable, which means the return value must be used.
