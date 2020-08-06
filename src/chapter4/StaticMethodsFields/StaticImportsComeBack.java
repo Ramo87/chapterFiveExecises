@@ -5,6 +5,7 @@ package chapter4.StaticMethodsFields;
         comes from. !!
  */
 
+import java.util.Arrays;
 import java.util.List;
 
 import static java.util.Arrays.asList;     /**  static import */
@@ -21,6 +22,7 @@ public class StaticImportsComeBack {
 
         public static void main(String[] args) {
             List<String> list = asList("one", "two"); // no Arrays.
+            List<String> list2 = Arrays.asList("one", "two");
         }
 }
 
