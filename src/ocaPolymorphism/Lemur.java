@@ -29,8 +29,4 @@ public class Lemur extends Primate implements HasTail {
 
         Object lemurAsObject = new Lemur();
     }
-
-
-
-
 }

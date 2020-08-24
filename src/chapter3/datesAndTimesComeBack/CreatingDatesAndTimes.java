@@ -9,7 +9,7 @@ import java.time.Month;
 public class CreatingDatesAndTimes {
     /**
      * 1.  LocalDate => contains just a date; no time, no time zone;
-     * => example =' my birthday = is my birthday hole day, no hour no second is relevant;
+     * => example =' myEx7 birthday = is myEx7 birthday hole day, no hour no second is relevant;
      * <p>
      * 2.  LocalTime => contains just a time, no date, no time zone. Example: midnight;
      * <p>
