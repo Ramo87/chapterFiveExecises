@@ -6,6 +6,13 @@ public class Animal {
     private int weight;
     private String color;
 
+    public Animal() {
+    }
+
+    public Animal(String name, int age) {
+        this(name, age, 56, "red");
+    }
+
     public Animal(String name, int age, int weight, String color) {
         this.name = name;
         this.age = age;
@@ -45,6 +52,7 @@ public class Animal {
         this.color = color;
     }
 
+    @Override
     public String toString() { /*print info of the Animnal */
         return ("The Lion is " + this.getAge() + " old"
                 + "\n"
