@@ -48,9 +48,9 @@ package chapter5.abstractClass;
  *               ABSTRACT METHODS:
  *
  *               - may only be defined in an abstract class;
- *               - may not be declared provate or final;
+ *               - may not be declared private or final;
  *               - must not have a body in the abstract class;
- *               - implementing an abstract class in a concerte class, must follow the same rules as overriding!
+ *               - implementing an abstract class in a concrete class, must follow the same rules as overriding!
  *
  *
  * */

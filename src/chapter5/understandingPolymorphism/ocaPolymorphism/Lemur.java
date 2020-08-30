@@ -1,4 +1,4 @@
-package ocaPolymorphism;
+package chapter5.understandingPolymorphism.ocaPolymorphism;
 
 /**
  * Created by Loky on 14/07/2020.
@@ -8,6 +8,7 @@ public class Lemur extends Primate implements HasTail {
     public boolean isTailStriped() {
         return false;
     }
+
     public int age = 10;
 
 //    @Override

@@ -1,4 +1,4 @@
-package ocaPolymorphism;
+package chapter5.understandingPolymorphism.ocaPolymorphism;
 
 /**
  * Created by Loky on 14/07/2020.
