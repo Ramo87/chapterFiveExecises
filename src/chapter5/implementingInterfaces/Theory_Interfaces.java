@@ -3,7 +3,7 @@ package chapter5.implementingInterfaces;
 /**
  *                       INTERFACES:
  *
- *                       !! the modefiers PUBLIC and ABSTRACT are assumed, even if are written or not !!
+ *                       !! the modifiers PUBLIC and ABSTRACT are assumed, even if are written or not !!
  *
  *
  *             A: RULES

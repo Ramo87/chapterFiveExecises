@@ -1,4 +1,4 @@
-package chapter5.definingConstructors2;
+package chapter5.constructors.definingConstructors2;
 
 /**
  * Created by Loky on 24/08/2020.
