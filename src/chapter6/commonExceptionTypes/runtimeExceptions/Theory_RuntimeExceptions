@@ -1,0 +1,35 @@
+
+ -> they dont have to be handeled or declared;
+  -> they can be thrown by th programmer or by JVM;
+
+  Examples:
+  1. Aritmetic Exceptions:  int a = 10/0;
+
+
+  2. ArrayOutOfBoundsException:
+
+                int[] a = new int[3];
+                sout(a[-1]);
+              ! the proble is that there is no -1 index in an array;
+
+
+  3. Class Cast Exception:
+   - when we deal with imposible casts;
+
+             ex1:   String type = "moose";
+                    Integer number = (Integer) type;  // does not compile! Integer is not a subclass from string;
+
+             ex2:   String type = "moose";
+                    Object obj = type;
+                    Integer number = (Integer) obj;
+
+                    ! hier the compile sees a cast from Object to Integer; this could be ok;
+                  he does not realise that there is a String in the Object; when the cod runs, it trows the exception;
+
+   4. Illegal Arguments Exception:
+
+   5. NullPointerException :
+
+   6. NumberFormatException - is a subclass of IllegalArgumentsException
+       => for the methods that convert strings to nukbers, when we have an invalid value:
+       Integer.parteInt("abc");
