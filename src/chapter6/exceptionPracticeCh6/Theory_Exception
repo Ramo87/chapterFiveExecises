@@ -1,0 +1,29 @@
+
+ i . Rules:
+        a. in a try catch, we can have catch, final or catch + final(both). Without final or catch the cod does not compile;
+        b. finally is always run and by catch block, only one!
+
+
+ ii.  1. System.exit :
+                    - there is one exception to the rule " the finally block runs always after the catch block".
+                    - the method "system.exit(0)". The integer parameter is the error code that gets returned;
+                    - system.exit tells java to end the program right now!
+                    - when system.exit is called in the try catch block, the finally does not run!
+
+  iii.
+
+                 For the exam I have to know:
+                  - if an exception is a check or unchecked exception;
+                  - to determine if any of the exceptions are subclasses of the others;
+
+
+  iv.
+            Catching various types of exceptions:
+   - if is impossible to for one of the catch blocks to be executed, a compiler error about unreachable code occurs;
+            that happens when a superclass is caught before a subclass;
+            the order is not important if the exceptions do not inherit from each other;
+   -
+
+
+  v.
+            Throwing a Second Exception:

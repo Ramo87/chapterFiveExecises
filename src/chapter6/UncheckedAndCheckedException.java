@@ -1,6 +1,6 @@
 package chapter6;
 
-public class UncheckedAndCheckedException {
+
 
     /**
      *
@@ -33,7 +33,8 @@ public class UncheckedAndCheckedException {
      *------------------------------------------------------------------------------------------------------------------
      *
      *      Errors vs. Exception
-     *      Error = eine schwerige Fehler;
+     *      Error = something went so terible wrong that your program shoul not attempt to recover it;
+     *            = example: the disk drive disappeared;
      *      Ausnahmen = weniger schweriegend
      *
      *  - ***  "throw" (werfen) vs "throws" (wirft)
@@ -47,4 +48,4 @@ public class UncheckedAndCheckedException {
      *------------------------------------------------------------------------------------------------------------------
      *
      * */
-}
+
